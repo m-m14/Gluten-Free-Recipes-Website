@@ -1,14 +1,50 @@
 <!DOCTYPE html>
 
-<body> 
+<head>
 
-    <h1>Maryam's Gluten Free Website</h1>
-    <h2> Welcome to my Website! </h2>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
+    <script src = "index.js"></script>
+
+</head>
+
+<body class = "mainpage"> 
+
+    <h1 class = "maintitle">Gluten Free Recipes Website</h1>
+    <h2 class = "maintitle"> Welcome to my Website! </h2>
+
+    <input id = "search" type ="text" onkeyup = "search()">
+
+    <div class = "grid-container">
+
+        <div class = "grid-item">
+            <a href = "GF_Biscotti.html"> <p class = "recipe_name" >Biscotti</p> </a>
+        </div>
+        
+        <div class = "grid-item">
+            <p class = "recipe_name" id = "1">Recipe 2</p>
+        </div>
+        
+        <div class = "grid-item">
+            <p class = "recipe_name" id = "2">Recipe 3</p>
+        </div>
+
+        <div class = "grid-item">
+            <p class = "recipe_name" id = "3">Recipe 4</p>
+        </div>
+
+        <div class = "grid-item">
+            <p class = "recipe_name" id = "4">Recipe 5</p>
+        </div>
+
+        <div class = "grid-item">
+            <p class = "recipe_name" id = "5">Recipe 6</p>
+        </div>
+
+    </div>
+
     
 
-    <p>I am currently living in Oman, and I have a passion for baking and trying new recipes. I also love to make websites and apps. </p>
-
-    <img src="/assets/bread.jpeg" alt="Gluten free bread with nuts in it" />
 </body>
 
 </html>

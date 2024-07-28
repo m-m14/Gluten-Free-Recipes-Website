@@ -1,0 +1,117 @@
+*{
+    background-color: rgb(255, 183, 237);
+}
+
+.mainpage{
+
+    text-align: center;
+
+}
+
+.maintitle{
+    font-family :'Times New Roman', Times, serif;
+}
+
+#search{
+
+    height : 30px;
+    width : 300px;
+    position : relative;
+    top : 10px;
+    left : 5px;
+    border-radius : 50px;
+
+}
+
+.grid-container{
+    display : grid; 
+    grid-template-columns: auto auto auto;
+    position : relative;
+    left : 80px;
+    top : 80px;
+    grid-gap : 100px 10px;
+}
+
+.grid-item{
+
+    border : 2px solid; 
+    border-radius : 50px;
+    width : 300px;
+    height : 200px;
+    text-align : center;
+    background-color: rgb(230, 210, 255);
+
+}
+
+/*#firstBox {
+
+    border : 2px solid; 
+    width : 200px;
+    height : 200px;
+    position : relative;
+    top : 50px;
+    left : 210px; 
+
+}
+
+#secondBox{
+
+    border : 2px solid; 
+    width : 200px;
+    height : 200px;
+    position : relative;
+    top : -154px;
+    left : 610px; 
+
+}
+
+#thirdBox{
+
+    border : 2px solid; 
+    width : 200px;
+    height : 200px;
+    position : relative;
+    top : -360px;
+    left : 1010px; 
+
+}*/
+
+.recipe_name{
+
+    position : relative; 
+    top : 40px;
+    background-color: rgb(230, 210, 255);
+    font-style : oblique;
+    font-family : 'Brittany Signature';
+    font-size : 30px;
+
+}
+
+.recipe_title{
+
+    font-style : oblique;
+    font-family : 'Brittany Signature';
+    font-size : 50px;
+    text-align : center;
+
+}
+
+.subtitle{
+
+    text-align: left;
+    
+}
+
+.instruct{
+
+    text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color : black;
+}
+
