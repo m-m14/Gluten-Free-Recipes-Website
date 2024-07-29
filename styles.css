@@ -1,6 +1,8 @@
 *{
-    background-color: rgb(255, 183, 237);
+    background-color: rgb(196, 144, 209);
 }
+
+
 
 .mainpage{
 
@@ -9,7 +11,9 @@
 }
 
 .maintitle{
-    font-family :'Times New Roman', Times, serif;
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #search{
@@ -18,8 +22,9 @@
     width : 300px;
     position : relative;
     top : 10px;
-    left : 5px;
     border-radius : 50px;
+    border-width : 3px;
+    border-color : black;
 
 }
 
@@ -39,7 +44,7 @@
     width : 300px;
     height : 200px;
     text-align : center;
-    background-color: rgb(230, 210, 255);
+    background-color: rgb(28, 214, 217);
 
 }
 
@@ -80,17 +85,19 @@
 
     position : relative; 
     top : 40px;
-    background-color: rgb(230, 210, 255);
-    font-style : oblique;
-    font-family : 'Brittany Signature';
+    background-color: rgb(28, 214, 217);
     font-size : 30px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight : 400px; 
 
 }
 
 .recipe_title{
 
-    font-style : oblique;
-    font-family : 'Brittany Signature';
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight : 400px; 
     font-size : 50px;
     text-align : center;
 
@@ -99,6 +106,9 @@
 .subtitle{
 
     text-align: left;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -108,10 +118,20 @@
 
 }
 
+li{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 a{
     text-decoration: none;
 }
 a:visited{
     color : black;
 }
+
 
