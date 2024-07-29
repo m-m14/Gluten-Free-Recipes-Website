@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(196, 144, 209);
+    background-color: #f0bcd4;
 }
 
 
@@ -14,6 +14,7 @@
     font-family: "Petit Formal Script", cursive;
     font-weight: 700;
     font-style: normal;
+    color : #333333
 }
 
 #search{
@@ -24,7 +25,7 @@
     top : 10px;
     border-radius : 50px;
     border-width : 3px;
-    border-color : black;
+    border-color : #333333;
 
 }
 
@@ -44,7 +45,8 @@
     width : 300px;
     height : 200px;
     text-align : center;
-    background-color: rgb(28, 214, 217);
+    background-color: #a14a76;
+    border-color : #333333; 
 
 }
 
@@ -85,11 +87,12 @@
 
     position : relative; 
     top : 40px;
-    background-color: rgb(28, 214, 217);
+    background-color: #a14a76;
     font-size : 30px;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight : 400px; 
+    color : #333333
 
 }
 
@@ -100,6 +103,7 @@
     font-weight : 400px; 
     font-size : 50px;
     text-align : center;
+    color : #333333;
 
 }
 
@@ -109,29 +113,32 @@
     font-family: "Shippori Mincho", serif;
     font-weight: 400;
     font-style: normal;
+    color : #333333
     
 }
 
 .instruct{
 
     text-align: left;
+    color : #333333
 
 }
 
 li{
+    color : #333333;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 10px;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+      "wdth" 100;
 }
 
 a{
     text-decoration: none;
 }
 a:visited{
-    color : black;
+    color : #333333;
 }
 
 
