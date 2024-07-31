@@ -2,19 +2,57 @@
     background-color: #f0bcd4;
 }
 
+.header{
 
+    text-align : left;
+    background-color : #D3D3D3;
+    color : #333333;
+    height : 50px;
+
+}
+
+.header-component{
+
+    background-color : #D3D3D3;
+    margin : 0;
+    padding-top: 11px;
+    padding-left : 20px;
+    padding-right : 20px;
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+ul.headerlist{
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+}
+
+li{
+    float : left;
+}
 
 .mainpage{
 
     text-align: center;
+    margin : 0;
 
+}
+
+.aboutme{
+
+    text-align : center;
+    margin : 0;
+    
 }
 
 .maintitle{
     font-family: "Petit Formal Script", cursive;
     font-weight: 700;
     font-style: normal;
-    color : #333333
+    color : #333333;
 }
 
 #search{
@@ -96,7 +134,7 @@
 
 }
 
-.recipe_title{
+.title{
 
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -124,7 +162,13 @@
 
 }
 
-li{
+.instr_comp{
+
+    float : none;
+
+}
+
+.instr_list{
     color : #333333;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
