@@ -93,6 +93,18 @@ li{
 
 }
 
+.grid-item{
+
+    border : 2px solid; 
+    border-radius : 50px;
+    width : 300px;
+    height : 200px;
+    text-align : center;
+    background-color: #a14a76;
+    border-color : #333333; 
+
+}
+
 /*#firstBox {
 
     border : 2px solid; 
@@ -183,7 +195,7 @@ li{
       "wdth" 100;
 }
 
-a{
+a {
     text-decoration: none;
     width : 300px;
     height : 200px;

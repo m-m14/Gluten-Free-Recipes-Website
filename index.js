@@ -103,22 +103,24 @@ function createRecipeCards(recipes) {
     }
 
     recipes.forEach((recipe) => {
-        const gridItem = document.createElement('div');
-        gridItem.className = 'grid-item';
-
         const recipeLink = document.createElement('a');
         recipeLink.href = recipe.link;
         recipeLink.onclick = () => showRecipeDetails(recipe.id);
+        recipeLink.className = 'grid-item-link'; // New class to style the link
 
+        const gridItem = document.createElement('div');
+        gridItem.className = 'grid-item';
+        
         const recipeName = document.createElement('p');
         recipeName.className = 'recipe_name';
         recipeName.textContent = recipe.name;
 
-        recipeLink.appendChild(recipeName);
-        gridItem.appendChild(recipeLink);
-        gridContainer.appendChild(gridItem);
+        gridItem.appendChild(recipeName);
+        recipeLink.appendChild(gridItem); // Wrap the div with the link
+        gridContainer.appendChild(recipeLink);
     });
 }
+
 
 
 // Function to search recipes
