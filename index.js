@@ -137,3 +137,5 @@ function search() {
 // Initialize the recipe cards with default recipes and attach the search function
 createRecipeCards(defaultRecipes);
 document.getElementById('search').addEventListener('input', search);
+
+//this is js
