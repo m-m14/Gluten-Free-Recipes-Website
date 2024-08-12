@@ -1,67 +1,32 @@
 <!DOCTYPE html>
 
 <head>
-
     <link rel="stylesheet" href="styles.css">
-    <script src = "index.js" ></script>
+    <script src="index.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Petit+Formal+Script&family=Shippori+Mincho&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 
-<body class = "mainpage"> 
+<body class="mainpage">
 
-    <div class = "header">
-
-        <ul class = "headerlist">
-            <li class = "header_li"><a href = "index.html" class = "header_link"><h2 class = "header-component">Home</h2></a></li>
-            <li class = "header_li"><a href = "about.html" class = "header_link"><h2 class = "header-component">About me</h2></a></li>
-            <li class = "header_li"><h2 class = "header-component">Contact us</h2></li>
+    <div class="header">
+        <ul class="headerlist">
+            <li class="header_li"><a href="index.html" class="header_link"><h2 class="header-component">Home</h2></a></li>
+            <li class="header_li"><a href="about.html" class="header_link"><h2 class="header-component">About me</h2></a></li>
+            <li class="header_li"><h2 class="header-component">Contact us</h2></li>
         </ul>
-
     </div>
 
-    <h1 class = "maintitle">Gluten Free Recipes Website</h1>
-    <h2 class = "maintitle"> Welcome to my Website! </h2>
+    <h1 class="maintitle">Gluten Free Recipes Website</h1>
+    <h2 class="maintitle"> Welcome to my Website! </h2>
 
-    <input id = "search" type ="text" placeholder = "search...." >
- 
-    <div class = "grid-container">
-        
-        <a href = "GF_Biscotti.html">
-        <div class = "grid-item">
+    <input id="search" type="text" placeholder="Search..." >
 
-             <p class = "recipe_name" >Biscotti</p>
-
-        </div>
-        </a>
-        
-        <div class = "grid-item">
-            <p class = "recipe_name">Recipe 2</p>
-        </div>
-        
-        <div class = "grid-item">
-            <p class = "recipe_name">Recipe 3</p>
-        </div>
-
-        <div class = "grid-item">
-            <p class = "recipe_name">Recipe 4</p>
-        </div>
-
-        <div class = "grid-item">
-            <p class = "recipe_name">Recipe 5</p>
-        </div>
-
-        <div class = "grid-item">
-            <p class = "recipe_name">Recipe 6</p>
-        </div>
-        
-
+    <div class="grid-container" id="recipeGrid">
+        <!-- Recipe cards will be dynamically generated here by JavaScript -->
     </div>
-
-    
 
 </body>
 
