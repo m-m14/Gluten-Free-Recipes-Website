@@ -185,6 +185,8 @@ li{
 
 a{
     text-decoration: none;
+    width : 300px;
+    height : 200px;
 }
 a:visited{
     color : #333333;
